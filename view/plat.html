@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>平台端简单页面</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet"  href="../css/plat.css">
+</head>
+<body>
+<header id="top" class="navbar navbar-static-top bs-docs-nav" role="banner" style="background-color:#FFA500;">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-target=".bs-navbar-collapse" data-toggle="collapse"
+                    type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../" style="color:white">乐驾-驾校端管理平台</a>
+        </div>
+        <nav class="navbar-collapse bs-navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#" style="color:white"></a>
+                </li>
+                <li>
+                    <a href="#" style="color:white"></a>
+                </li>
+                <li>
+                    <a href="#" style="color:white"></a>
+                </li>
+                <li>
+                    <a href="#" style="color:white"></a>
+                </li>
+                <li>
+                    <a href="#" style="color:white"></a>
+                </li>
+                <li>
+                    <a target="_blank" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', 'V3导航-网站实例'])"
+                       href="http://expo.bootcss.com" style="color:white"></a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a target="_blank" href="#" style="color:white">登录</a>
+                </li>
+                <li>
+                    <a target="_blank" href="#" style="color:white">注册</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="containert">
+    <div class="add_user">
+        <span class="glyphicon glyphicon-plus addMessage" aria-hidden="true" onclick="createMessage()" title="添加教练信息"></span>
+    </div>
+    <div class="myTable">
+        <table class="myAdd">
+            <THEAD>驾校信息录入：
+            <TR>
+                <TD>name:</TD>
+                <TD>tel:</TD>
+                
+                <td>chargename:</td>
+                <TD>palyID:</TD>
+                
+                <TD>chargeID：</td>
+                
+            </TR>
+            </THEAD>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <BUTTON ONCLICK="getValue()">提交 </BUTTON>
+
+</div>
+
+
+<script src="../js/plat.js"></script>
+</body>
+
+
+</html>
